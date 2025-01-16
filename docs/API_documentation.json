@@ -577,7 +577,7 @@
             ],
             "id": 9,
             "method": "GET",
-            "endpoint": "/api/articles/:slug",
+            "endpoint": "/api/articles/<slug>",
             "description": "Get an article by its :slug. Authentication is optional, will return a single article\n"
         },
         {
@@ -688,7 +688,7 @@
             ],
             "id": 11,
             "method": "PUT",
-            "endpoint": "/api/articles/:slug",
+            "endpoint": "/api/articles/<slug>",
             "description": "Update an article by its \"slug. Authentication required, returns the updated Article. Optional fields: title, description, body. The slug field also gets updated when the title change.\n"
         },
         {
@@ -701,7 +701,7 @@
             ],
             "id": 12,
             "method": "DELETE",
-            "endpoint": "/api/articles/:slug",
+            "endpoint": "/api/articles/<slug>",
             "description": "Detele an article by it :slug. Authentication required. No return, error if the :slug corresponds to no articles\n"
         },
         {
@@ -739,7 +739,7 @@
             ],
             "id": 13,
             "method": "POST",
-            "endpoint": "/api/articles/:slug/comments",
+            "endpoint": "/api/articles/<slug>/comments",
             "description": "Post a comment to an article by its :slug. Authentication required, returns the newly created comments if article exist.\n"
         },
         {
@@ -799,7 +799,7 @@
             ],
             "id": 14,
             "method": "GET",
-            "endpoint": "/api/articles/:slug/comments",
+            "endpoint": "/api/articles/<slug>/comments",
             "description": "Get all the comments from an article by its :slug. Authentication optional, returns multiple Comments \n"
         },
         {
@@ -812,7 +812,7 @@
             ],
             "id": 15,
             "method": "DELETE",
-            "endpoint": "/api/articles/:slug/comments/:id",
+            "endpoint": "/api/articles/<slug>/comments/:id",
             "description": "Delete a comment of an article by its :slug and :id. Authentication required. No return, error if the :slug or :id corresponds to no comments.\n"
         },
         {
@@ -881,7 +881,7 @@
             ],
             "id": 16,
             "method": "POST",
-            "endpoint": "/api/articles/:slug/favorite",
+            "endpoint": "/api/articles/<slug>/favorite",
             "description": "Favorite an article by its :slug. Authentication required, returns the favorited Article\n"
         },
         {
@@ -928,7 +928,7 @@
             ],
             "id": 17,
             "method": "DELETE",
-            "endpoint": "/api/articles/:slug/favorite",
+            "endpoint": "/api/articles/<slug>/favorite",
             "description": "Unfavorite an article by its :slug. Authentication required, returns the unfavorited Article\n"
         },
         {
