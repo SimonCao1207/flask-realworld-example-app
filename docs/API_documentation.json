@@ -162,7 +162,7 @@
             ],
             "id": 4,
             "method": "GET",
-            "endpoint": "/api/profiles/:username",
+            "endpoint": "/api/profiles/<username>",
             "description": "Get the profile of the user whose username is provided in :username. Authentication is optional, return a Profile\n"
         },
         {
@@ -201,7 +201,7 @@
             ],
             "id": 5,
             "method": "POST",
-            "endpoint": "/api/profiles/:username/follow",
+            "endpoint": "/api/profiles/<username>/follow",
             "description": "Follow the user whose username is provided in :username. Authentication required, returns a Profile\n"
         },
         {
@@ -240,7 +240,7 @@
             ],
             "id": 6,
             "method": "DELETE",
-            "endpoint": "/api/profiles/:username/follow",
+            "endpoint": "/api/profiles/<username>/follow",
             "description": "Unfollow the user whose username is provided in :username. Authentication required, returns a Profile\n"
         },
         {
