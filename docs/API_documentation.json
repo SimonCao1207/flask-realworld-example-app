@@ -812,7 +812,7 @@
             ],
             "id": 15,
             "method": "DELETE",
-            "endpoint": "/api/articles/<slug>/comments/:id",
+            "endpoint": "/api/articles/<slug>/comments/<cid>",
             "description": "Delete a comment of an article by its :slug and :id. Authentication required. No return, error if the :slug or :id corresponds to no comments.\n"
         },
         {
