@@ -163,7 +163,7 @@
             "id": 4,
             "method": "GET",
             "endpoint": "/api/profiles/<username>",
-            "description": "Get the profile of the user whose username is provided in :username. Authentication is optional, return a Profile\n"
+            "description": "Get the profile of the user whose username is provided in <username>. Authentication is optional, return a Profile\n"
         },
         {
             "samples": [
@@ -202,7 +202,7 @@
             "id": 5,
             "method": "POST",
             "endpoint": "/api/profiles/<username>/follow",
-            "description": "Follow the user whose username is provided in :username. Authentication required, returns a Profile\n"
+            "description": "Follow the user whose username is provided in <username>. Authentication required, returns a Profile\n"
         },
         {
             "samples": [
@@ -241,7 +241,7 @@
             "id": 6,
             "method": "DELETE",
             "endpoint": "/api/profiles/<username>/follow",
-            "description": "Unfollow the user whose username is provided in :username. Authentication required, returns a Profile\n"
+            "description": "Unfollow the user whose username is provided in <username>. Authentication required, returns a Profile\n"
         },
         {
             "samples": [
@@ -578,7 +578,7 @@
             "id": 9,
             "method": "GET",
             "endpoint": "/api/articles/<slug>",
-            "description": "Get an article by its :slug. Authentication is optional, will return a single article\n"
+            "description": "Get an article by its <slug>. Authentication is optional, will return a single article\n"
         },
         {
             "samples": [
@@ -702,7 +702,7 @@
             "id": 12,
             "method": "DELETE",
             "endpoint": "/api/articles/<slug>",
-            "description": "Detele an article by it :slug. Authentication required. No return, error if the :slug corresponds to no articles\n"
+            "description": "Detele an article by it <slug>. Authentication required. No return, error if the <slug> corresponds to no articles\n"
         },
         {
             "samples": [
@@ -740,7 +740,7 @@
             "id": 13,
             "method": "POST",
             "endpoint": "/api/articles/<slug>/comments",
-            "description": "Post a comment to an article by its :slug. Authentication required, returns the newly created comments if article exist.\n"
+            "description": "Post a comment to an article by its <slug>. Authentication required, returns the newly created comments if article exist.\n"
         },
         {
             "samples": [
@@ -800,7 +800,7 @@
             "id": 14,
             "method": "GET",
             "endpoint": "/api/articles/<slug>/comments",
-            "description": "Get all the comments from an article by its :slug. Authentication optional, returns multiple Comments \n"
+            "description": "Get all the comments from an article by its <slug>. Authentication optional, returns multiple Comments \n"
         },
         {
             "samples": [
@@ -813,7 +813,7 @@
             "id": 15,
             "method": "DELETE",
             "endpoint": "/api/articles/<slug>/comments/<cid>",
-            "description": "Delete a comment of an article by its :slug and :id. Authentication required. No return, error if the :slug or :id corresponds to no comments.\n"
+            "description": "Delete a comment of an article by its <slug> and <id>. Authentication required. No return, error if the <slug> or <id> corresponds to no comments.\n"
         },
         {
             "samples": [
@@ -882,7 +882,7 @@
             "id": 16,
             "method": "POST",
             "endpoint": "/api/articles/<slug>/favorite",
-            "description": "Favorite an article by its :slug. Authentication required, returns the favorited Article\n"
+            "description": "Favorite an article by its <slug>. Authentication required, returns the favorited Article\n"
         },
         {
             "samples": [
@@ -929,7 +929,7 @@
             "id": 17,
             "method": "DELETE",
             "endpoint": "/api/articles/<slug>/favorite",
-            "description": "Unfavorite an article by its :slug. Authentication required, returns the unfavorited Article\n"
+            "description": "Unfavorite an article by its <slug>. Authentication required, returns the unfavorited Article\n"
         },
         {
             "samples": [
